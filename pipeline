@@ -2,7 +2,7 @@ node {
    def mvnHome
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
-      git 'https://github.com/elijb/maven-example.git'
+      git 'https://github.com/Gzalzman/maven-example.git'
       mvnHome = tool 'M3'
    }
    stage('Build') {
